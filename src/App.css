@@ -1,5 +1,31 @@
 .App {
+  display: flex;
+  background-color: cornsilk;
   text-align: center;
+  
+}
+
+.column {
+  width: 30%;
+  margin: 20px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.column-title {
+  background-color: black;
+  color: lawngreen;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: burlywood;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .App-logo {
